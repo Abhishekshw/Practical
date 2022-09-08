@@ -7,10 +7,10 @@ public class Defaultcon {// method default value
 		System.out.println(age+ " "+name);
 	}
 	public static void main(String[] args) {
-		Defaultcon d=new Defaultcon();
-		Defaultcon d1=new Defaultcon();
-		d.show();
-		d1.show();
+		Defaultcon d=new Defaultcon();//object 1
+		Defaultcon d1=new Defaultcon();//  object 1
+		d.show();//method call
+		d1.show();//method call
 		
 	}
 
