@@ -25,7 +25,7 @@ public static void main(String[] args) {
 	c2.name=c1.name;
 	c1.show();
 	c2.show();
-		// TODO Auto-generated method stub bhai call pe hu \\nhi ok
+
 
 	}
 
