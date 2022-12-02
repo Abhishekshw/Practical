@@ -23,4 +23,20 @@ public class StackEg {
 		System.out.println("size is " + x);
 		System.out.println("is empty " + s.empty());
 	}
+
+	// push operation
+	private static void pushelement(Stack<Integer> s, int i) {
+		// invoke push method
+		s.push(i);
+		System.out.println("push: " + i);
+		System.out.println("Stack" + s);
+
+	}
+
+	private static void popelement(Stack<Integer> s, int i) {
+		Integer i1 = (Integer) s.pop();
+		System.out.println("push: " + i1);
+		System.out.println("Stack" + s);
+
+	}
 }

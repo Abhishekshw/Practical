@@ -28,7 +28,6 @@ public class LinkListex {
 		li.add("Aksh");
 		li.add("amit");
 		li.add(1, "Saroj");
-
 		System.out.println(li);
 		li.removeFirst();// remove frist element
 		System.out.println(li);
